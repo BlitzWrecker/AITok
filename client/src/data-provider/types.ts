@@ -106,6 +106,7 @@ export type TConversation = {
   clientId?: string;
   invocationId?: string;
   toneStyle?: string;
+  likedBy?: string[];
 };
 
 export type TPreset = {
